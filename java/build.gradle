@@ -1,0 +1,17 @@
+plugins {
+	id 'java'
+}
+repositories {
+    mavenCentral()
+}
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.5.2'
+}
+
+group = 'com.zuhlke'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+test {
+    useJUnitPlatform()
+}
