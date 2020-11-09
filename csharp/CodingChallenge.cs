@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace interview
+namespace Interview
 {
     public class CodingChallenge
     {
